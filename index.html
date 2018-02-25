@@ -1,42 +1,185 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-    <meta charset="UTF-8">    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
-    <link rel="stylesheet" href="index.css">    
-    <script src="jquery-1.11.3.min.js"></script>
-    <script src="jquery.mobile-1.4.5.min.js"></script>
-    <script src="index.js"></script>    
+<meta charset="gb2312">
+<title>¸öÈË²©¿ÍÄ£°å¹ÅµäÏµÁÐÖ®¡ª¡ª½­ÄÏÄ«¾í</title>
+<meta name="keywords" content="¸öÈË²©¿ÍÄ£°å¹ÅµäÏµÁÐÖ®¡ª¡ª½­ÄÏÄ«¾í" />
+<meta name="description" content="¸öÈË²©¿ÍÄ£°å¹ÅµäÏµÁÐÖ®¡ª¡ª½­ÄÏÄ«¾í" />
+<link href="css/base.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery.js"></script>
 </head>
 <body>
-<div data-role="page" id="home">
-    <div data-role="header">
-        <h1>åœ¨çº¿ç”µå•†ç½‘ç«™</h1>
-    </div>
-
-    <div data-role="main" class="ui-content">
-        <div data-role="collapsible">
-            <h1>äº§å“åˆ†ç±»</h1>
-            <p><a href="product_list.html?category=1" data-ajax="false">ç¬”è®°æœ¬</a></p>
-            <p><a href="product_list.html?category=2" data-ajax="false">å¹³æ¿ç”µè„‘</a></p>
-            <p><a href="product_list.html?category=3" data-ajax="false">ä¸€ä½“æœº</a></p>
-            <p><a href="product_list.html?category=4" data-ajax="false">å°å¼æœº</a></p>
-            <p><a href="product_list.html?category=5" data-ajax="false">æœåŠ¡å™¨</a></p>
-        </div>        
-        <h3>æŽ¨èäº§å“</h3>
-        <div class="ui-grid-a" id="view">
+<div id="wrapper">
+  <header>
+    <div class="headtop"></div>
+    <div class="contenttop">
+      <div class="logo f_l">¸öÈË²©¿ÍÄ£°å¹ÅµäÏµÁÐÖ®¡ª¡ª½­ÄÏÄ«¾í</div>
+      <div class="search f_r">
+        <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+          <input name="keyboard" id="keyboard" class="input_text" value="ÇëÊäÈë¹Ø¼ü×Ö" style="color: rgb(153, 153, 153);" onfocus="if(value=='ÇëÊäÈë¹Ø¼ü×Ö'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='ÇëÊäÈë¹Ø¼ü×Ö'}" type="text">
+          <input name="show" value="title" type="hidden">
+          <input name="tempid" value="1" type="hidden">
+          <input name="tbname" value="news" type="hidden">
+          <input name="Submit" class="input_submit" value="ËÑË÷" type="submit">
+        </form>
+      </div>
+      <div class="blank"></div>
+      <nav>
+        <div  class="navigation">
+          <ul class="menu">
+            <li><a href="index.html">ÍøÕ¾Ê×Ò³</a></li>
+            <li><a href="#">¹ØÓÚÎÒ</a>
+              <ul>
+                <li><a href="about.html">¸öÈË¼ò½é</a></li>
+                <li><a href="listpic.html">¸öÈËÏà²á</a></li>
+              </ul>
+            </li>
+            <li><a href="#">ÎÒµÄÈÕ¼Ç</a>
+              <ul>
+                <li><a href="newslistpic.html">¸öÈËÈÕ¼Ç</a></li>
+                <li><a href="newslistpic.html">Ñ§Ï°±Ê¼Ç</a></li>
+              </ul>
+            </li>
+            <li><a href="newslistpic.html">¼¼ÊõÎÄÕÂ</a> </li>
+            <li><a href="#">¸øÎÒÁôÑÔ</a> </li>
+          </ul>
         </div>
+      </nav>
+      <SCRIPT type=text/javascript>
+	// Navigation Menu
+	$(function() {
+		$(".menu ul").css({display: "none"}); // Opera Fix
+		$(".menu li").hover(function(){
+			$(this).find('ul:first').css({visibility: "visible",display: "none"}).slideDown("normal");
+		},function(){
+			$(this).find('ul:first').css({visibility: "hidden"});
+		});
+	});
+</SCRIPT> 
     </div>
-
-    <div data-role="footer" data-position="fixed">
-        <div data-role="navbar">
-            <ul>
-                <li><a href="index.html" data-icon="home" data-ajax="false"></a></li>
-                <li><a href="usercenter.html" data-icon="user" data-ajax="false"></a></li>
-            </ul>
+  </header>
+  <div class="jztop"></div>
+  <div class="container">
+    <div class="bloglist f_l">
+      <h3><a href="/jstt/bj/2017-07-13/784.html">¡¾ÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉè¼ÆÕâÌõÂ·ÉÏÅÇ»²À²</a></h3>
+      <figure><img src="images/img_1.jpg" alt="¡¾ÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉè¼ÆÕâÌõÂ·ÉÏÅÇ»²À²"></figure>
+      <ul>
+        <p> ÎÒÕûÀíÁËÒ»ÏÂÍøÓÑ¸øÎÒµÄÀ´ÐÅ£¬Èç¹ûÄã»¹ÔÚ³ì³ù²»Ç°£¬²»·ÁÀ´¿´¿´£¬µ½µ×Òª²»Òª¼á³ÖÏÂÈ¥£¡ÎÒÒ²»¶Ó­´ó¼Ò¸øÎÒÀ´ÐÅ£¬Ï£ÍûÄÜ°ïµ½¸ü¶àÈË¡£</p>
+        <a title="¡¾ÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉè¼ÆÕâÌõÂ·ÉÏÅÇ»²À²" href="/jstt/bj/2017-07-13/784.html" target="_blank" class="readmore">ÔÄ¶ÁÈ«ÎÄ&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>2017-07-13</span><span>×÷Õß£º</span><span>¸öÈË²©¿Í£º[<a href="/jstt/bj/">ÐÄµÃ±Ê¼Ç</a>]</span></p>
+      <h3><a href="/jstt/bj/2015-01-09/740.html">¡¾´Ò´ÒÄÇÐ©Äê¡¿×Ü½á¸öÈË²©¿Í¾­ÀúµÄÕâËÄÄê¡­</a></h3>
+      <figure><img src="images/img_2.jpg" alt="¡¾´Ò´ÒÄÇÐ©Äê¡¿×Ü½á¸öÈË²©¿Í¾­ÀúµÄÕâËÄÄê¡­"></figure>
+      <ul>
+        <p>²©¿Í´Ó×î³õµÄÓòÃû¹ºÂò£¬µ½ÉÏÏßÒÑ¾­ÓÐËÄÄêµÄÊ±¼äÁË£¬ÕâËÄÄêµÄÊ±¼ä£¬ÓÐÐ¦¹ý£¬ÓÐÔ¹¹ý£¬ÓÐ»Ú¹ý£¬ÓÐÖ´×Å¹ý£¬Ò²ÓÐ·ÅÆú¹ý¡­µ«×îºó»¹ÊÇ¼á³ÖÁËÏÂÀ´£¬Ê±¼äÈç´Ë´Ò´Ò£¬µÈÔÙ»Ø¹ýÍ·ÒÑÀ´²»¼°È¥ÃÖ²¹</p>
+        <a title="¡¾´Ò´ÒÄÇÐ©Äê¡¿×Ü½á¸öÈË²©¿Í¾­ÀúµÄÕâËÄÄê¡­" href="/jstt/bj/2015-01-09/740.html" target="_blank" class="readmore">ÔÄ¶ÁÈ«ÎÄ&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>2015-01-09</span><span>×÷Õß£ºÑîÇà</span><span>¸öÈË²©¿Í£º[<a href="/jstt/bj/">ÐÄµÃ±Ê¼Ç</a>]</span></p>
+      <h3><a href="/jstt/bj/2014-11-06/732.html">·ÖÏíÎÒµÄ¸öÈË²©¿Í·ÃÎÊÁ¿ÈçºÎ×öµ½IP´Ó10µ½600µÄ(Í¼ÎÄ)</a></h3>
+      <figure><img src="images/img_3.jpg" alt="·ÖÏíÎÒµÄ¸öÈË²©¿Í·ÃÎÊÁ¿ÈçºÎ×öµ½IP´Ó10µ½600µÄ(Í¼ÎÄ)"></figure>
+      <ul>
+        <p>ÎÒµÄ¸öÈË²©¿Í×Ü¹²Õ¹Ê¾ÁËÈý¸ö°æ±¾£¬½çÃæÒ²¾­ÀúÁËÓÉ¡°¼òµ¥¡±µ½¡°¸´ÔÓ¡±ÔÙµ½¡°¼òµ¥¡±£¬ÑÕÉ«´Ó¡°É«Ôóµ¥Ò»¡±µ½¡°Îå²Ê°ßìµ¡±ÔÙµ½¡°¾Ö²¿µã×º¡±µÄ¹ý³Ì¡£Ô­À´Ò»ÄêÒ»¸ö°æ±¾£¡¶øÃ¿´Î¸Ä°æµÄÆõ»ú¶¼ÊÇ±»°Ù¶È³Í·££¡½çÃæ²»ÒªÆµ·±¸ü»»£¡ºÃºÃ¼ì²é´úÂë£¬ÓÐÃ»ÓÐÈßÓà¡¢½á¹¹ÓÐÃ»ÓÐ²»ºÏÀíµÄµØ·½¡£</p>
+        <a title="·ÖÏíÎÒµÄ¸öÈË²©¿Í·ÃÎÊÁ¿ÈçºÎ×öµ½IP´Ó10µ½600µÄ(Í¼ÎÄ)" href="/jstt/bj/2014-11-06/732.html" target="_blank" class="readmore">ÔÄ¶ÁÈ«ÎÄ&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>2014-11-06</span><span>×÷Õß£ºÑîÇà</span><span>¸öÈË²©¿Í£º[<a href="/jstt/bj/">ÐÄµÃ±Ê¼Ç</a>]</span></p>
+      <h3><a href="/jstt/bj/2014-10-18/731.html">µÛ¹úcms³£ÓÃ±êÇ©µ÷ÓÃ·½·¨×Ü½á£¨²»µÃ²»ÊÕ²ØÅ¶£©</a></h3>
+      <figure><img src="images/img_4.jpg" alt="µÛ¹úcms³£ÓÃ±êÇ©µ÷ÓÃ·½·¨×Ü½á£¨²»µÃ²»ÊÕ²ØÅ¶£©"></figure>
+      <ul>
+        <p>ÕûÀíÁËÒ»Ð©³£ÓÃµÄµÛ¹úcmsµ÷ÓÃ£¬Áé¶¯±êÇ©ºÍÍòÄÜ±êÇ©µÄµ÷ÓÃ·½·¨¾ÙÀý¡£»ÃµÆÆ¬¡¢±êÌâ¡¢Ò»¼¶À¸Ä¿¡¢¶þ¼¶À¸Ä¿¡¢´øÄ£°æµÄÓÑÇéÁ´½Ó£¨ÏÂÀ­²Ëµ¥£©¡¢ÅÐ¶ÏÄÚÈÝÒ³×Ö¶ÎÎª¿ÕÊ±ÊÇÈçºÎµ÷ÓÃµÄµÈµÈ...ÐÂÊÖ¿ÉÒÔ½è¼øÑ§Ï°¡£</p>
+        <a title="µÛ¹úcms³£ÓÃ±êÇ©µ÷ÓÃ·½·¨×Ü½á£¨²»µÃ²»ÊÕ²ØÅ¶£©" href="/jstt/bj/2014-10-18/731.html" target="_blank" class="readmore">ÔÄ¶ÁÈ«ÎÄ&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>2015-01-09</span><span>×÷Õß£ºÑîÇà</span><span>¸öÈË²©¿Í£º[<a href="/jstt/bj/">ÐÄµÃ±Ê¼Ç</a>]</span></p>
+      <h3><a href="/jstt/bj/2017-07-13/784.html">¡¾ÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉè¼ÆÕâÌõÂ·ÉÏÅÇ»²À²</a></h3>
+      <figure><img src="images/img_1.jpg" alt="¡¾ÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉè¼ÆÕâÌõÂ·ÉÏÅÇ»²À²"></figure>
+      <ul>
+        <p> ÎÒÕûÀíÁËÒ»ÏÂÍøÓÑ¸øÎÒµÄÀ´ÐÅ£¬Èç¹ûÄã»¹ÔÚ³ì³ù²»Ç°£¬²»·ÁÀ´¿´¿´£¬µ½µ×Òª²»Òª¼á³ÖÏÂÈ¥£¡ÎÒÒ²»¶Ó­´ó¼Ò¸øÎÒÀ´ÐÅ£¬Ï£ÍûÄÜ°ïµ½¸ü¶àÈË¡£</p>
+        <a title="¡¾ÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉè¼ÆÕâÌõÂ·ÉÏÅÇ»²À²" href="/jstt/bj/2017-07-13/784.html" target="_blank" class="readmore">ÔÄ¶ÁÈ«ÎÄ&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>2017-07-13</span><span>×÷Õß£º</span><span>¸öÈË²©¿Í£º[<a href="/jstt/bj/">ÐÄµÃ±Ê¼Ç</a>]</span></p>
+      <h3><a href="/jstt/bj/2015-01-09/740.html">¡¾´Ò´ÒÄÇÐ©Äê¡¿×Ü½á¸öÈË²©¿Í¾­ÀúµÄÕâËÄÄê¡­</a></h3>
+      <figure><img src="images/img_2.jpg" alt="¡¾´Ò´ÒÄÇÐ©Äê¡¿×Ü½á¸öÈË²©¿Í¾­ÀúµÄÕâËÄÄê¡­"></figure>
+      <ul>
+        <p>²©¿Í´Ó×î³õµÄÓòÃû¹ºÂò£¬µ½ÉÏÏßÒÑ¾­ÓÐËÄÄêµÄÊ±¼äÁË£¬ÕâËÄÄêµÄÊ±¼ä£¬ÓÐÐ¦¹ý£¬ÓÐÔ¹¹ý£¬ÓÐ»Ú¹ý£¬ÓÐÖ´×Å¹ý£¬Ò²ÓÐ·ÅÆú¹ý¡­µ«×îºó»¹ÊÇ¼á³ÖÁËÏÂÀ´£¬Ê±¼äÈç´Ë´Ò´Ò£¬µÈÔÙ»Ø¹ýÍ·ÒÑÀ´²»¼°È¥ÃÖ²¹</p>
+        <a title="¡¾´Ò´ÒÄÇÐ©Äê¡¿×Ü½á¸öÈË²©¿Í¾­ÀúµÄÕâËÄÄê¡­" href="/jstt/bj/2015-01-09/740.html" target="_blank" class="readmore">ÔÄ¶ÁÈ«ÎÄ&gt;&gt;</a>
+      </ul>
+      <p class="dateview"><span>2015-01-09</span><span>×÷Õß£ºÑîÇà</span><span>¸öÈË²©¿Í£º[<a href="/jstt/bj/">ÐÄµÃ±Ê¼Ç</a>]</span></p>
+    </div>
+    <div class="r_box f_r">
+      <div class="tit01">
+        <h3 class="tit">¹Ø×¢ÎÒ</h3>
+        <div class="gzwm">
+          <ul>
+            <li><a class="email" href="#" target="_blank">ÎÒµÄµç»°</a></li>
+            <li><a class="qq" href="#mailto:admin@admin.com" target="_blank">ÎÒµÄÓÊÏä</a></li>
+            <li><a class="tel" href="#" target="_blank">ÎÒµÄQQ</a></li>
+            <li><a class="prize" href="#">¸öÈË½±Ïî</a></li>
+          </ul>
         </div>
+      </div>
+      <!--tit01 end-->
+      
+      <div class="tuwen">
+        <h3 class="tit">Í¼ÎÄÍÆ¼ö</h3>
+        <ul>
+          <li><a href="/"><img src="images/01.jpg"><b>×¡ÔÚÊÖ»úÀïµÄÅóÓÑ</b></a>
+            <p><span class="tulanmu"><a href="/">ÊÖ»úÅä¼þ</a></span><span class="tutime">2015-02-15</span></p>
+          </li>
+          <li><a href="/"><img src="images/02.jpg"><b>½ÌÄãÔõÑùÓÃÇ··ÑÊÖ»ú²¦´òµç»°</b></a>
+            <p><span class="tulanmu"><a href="/">ÊÖ»úÅä¼þ</a></span><span class="tutime">2015-02-15</span></p>
+          </li>
+          <li><a href="/" title="ÊÖ»úµÄ16¸ö¾ªÈËÐ¡ÃØÃÜ£¬¾ÝËµ99.999%µÄÈË¶¼²»Öª"><img src="images/03.jpg"><b>ÊÖ»úµÄ16¸ö¾ªÈËÐ¡ÃØÃÜ£¬¾ÝËµ...</b></a>
+            <p><span class="tulanmu"><a href="/">ÊÖ»úÅä¼þ</a></span><span class="tutime">2015-02-15</span></p>
+          </li>
+          <li><a href="/"><img src="images/06.jpg"><b>×¡ÔÚÊÖ»úÀïµÄÅóÓÑ</b></a>
+            <p><span class="tulanmu"><a href="/">ÊÖ»úÅä¼þ</a></span><span class="tutime">2015-02-15</span></p>
+          </li>
+          <li><a href="/"><img src="images/04.jpg"><b>½ÌÄãÔõÑùÓÃÇ··ÑÊÖ»ú²¦´òµç»°</b></a>
+            <p><span class="tulanmu"><a href="/">ÊÖ»úÅä¼þ</a></span><span class="tutime">2015-02-15</span></p>
+          </li>
+          <li><a href="/"><img src="images/02.jpg"><b>½ÌÄãÔõÑùÓÃÇ··ÑÊÖ»ú²¦´òµç»°</b></a>
+            <p><span class="tulanmu"><a href="/">ÊÖ»úÅä¼þ</a></span><span class="tutime">2015-02-15</span></p>
+          </li>
+          <li><a href="/" title="ÊÖ»úµÄ16¸ö¾ªÈËÐ¡ÃØÃÜ£¬¾ÝËµ99.999%µÄÈË¶¼²»Öª"><img src="images/03.jpg"><b>ÊÖ»úµÄ16¸ö¾ªÈËÐ¡ÃØÃÜ£¬¾ÝËµ...</b></a>
+            <p><span class="tulanmu"><a href="/">ÊÖ»úÅä¼þ</a></span><span class="tutime">2015-02-15</span></p>
+          </li>
+        </ul>
+      </div>
+      <div class="ph">
+        <h3 class="tit">µã»÷ÅÅÐÐ</h3>
+        <ul class="rank">
+          <li><a href="/jstt/bj/2017-07-13/784.html" title="¡¾ÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉè¼ÆÕâÌõÂ·ÉÏÅÇ»²À²" target="_blank">¡¾ÐÄÂ·Àú³Ì¡¿Çë²»ÒªÔÚÉè¼ÆÕâÌõÂ·ÉÏÅÇ»²À²</a></li>
+          <li><a href="/news/s/2016-05-20/751.html" title="IPÒªÍ»ÆÆ2000+ÁË" target="_blank">IPÒªÍ»ÆÆ2000+ÁË</a></li>
+          <li><a href="/jstt/web/2015-07-03/749.html" title="µÛ¹úcmsÊ×Ò³¡¢×Ô¶¨ÒåÒ³ÃæÈçºÎÊµÏÖ·ÖÒ³" target="_blank">µÛ¹úcmsÊ×Ò³¡¢×Ô¶¨ÒåÒ³ÃæÈçºÎÊµÏÖ·ÖÒ³</a></li>
+          <li><a href="/jstt/web/2015-02-25/745.html" title="¡¾ÒÑÆÀÑ¡¡¿¸øÎÒÄ£°åPSDÔ´ÎÄ¼þ£¬ÎÒ¸øÄãÉè¼ÆHTML£¡" target="_blank">¡¾ÒÑÆÀÑ¡¡¿¸øÎÒÄ£°åPSDÔ´ÎÄ¼þ£¬ÎÒ¸øÄãÉè¼ÆHTML£¡</a></li>
+          <li><a href="/jstt/bj/2015-02-14/744.html" title="¡¾Ö£ÖØÉêÃ÷¡¿±¾Õ¾Ö»Ìá¹©¾²Ì¬Ä£°åÏÂÔØ£¡" target="_blank">¡¾Ö£ÖØÉêÃ÷¡¿±¾Õ¾Ö»Ìá¹©¾²Ì¬Ä£°åÏÂÔØ£¡</a></li>
+          <li><a href="/news/s/2015-01-23/741.html" title="¡¾ÔÐÆÚÈÕ¼Ç¡¿Éú»î±¾¸ÃÈç´Ë" target="_blank">¡¾ÔÐÆÚÈÕ¼Ç¡¿Éú»î±¾¸ÃÈç´Ë</a></li>
+          <li><a href="/jstt/bj/2015-01-09/740.html" title="¡¾´Ò´ÒÄÇÐ©Äê¡¿×Ü½á¸öÈË²©¿Í¾­ÀúµÄÕâËÄÄê¡­" target="_blank">¡¾´Ò´ÒÄÇÐ©Äê¡¿×Ü½á¸öÈË²©¿Í¾­ÀúµÄÕâËÄÄê¡­</a></li>
+          <li><a href="/jstt/web/2015-01-01/739.html" title=" 2014Äê¶ÈÓÅÐã¸öÈË²©¿ÍÅÅÃû¹«²¼" target="_blank"> 2014Äê¶ÈÓÅÐã¸öÈË²©¿ÍÅÅÃû¹«²¼</a></li>
+          <li><a href="/jstt/web/2014-12-18/736.html" title="2014Äê¶ÈÓÅÐã¸öÈË²©¿ÍÆÀÑ¡»î¶¯" target="_blank">2014Äê¶ÈÓÅÐã¸öÈË²©¿ÍÆÀÑ¡»î¶¯</a></li>
+          <li><a href="/jstt/css3/2014-12-09/734.html" title="Ê¹ÓÃCSS3ÖÆ×÷ÎÄ×Ö¡¢Í¼Æ¬µ¹Ó°" target="_blank">Ê¹ÓÃCSS3ÖÆ×÷ÎÄ×Ö¡¢Í¼Æ¬µ¹Ó°</a></li>
+          <li><a href="/jstt/css3/2014-11-18/733.html" title="¡¾·ÖÏí¡¿css3²à±ßÀ¸µ¼º½²»Í¬·½Ïò»®³öÐ§¹û" target="_blank">¡¾·ÖÏí¡¿css3²à±ßÀ¸µ¼º½²»Í¬·½Ïò»®³öÐ§¹û</a></li>
+          <li><a href="/jstt/bj/2014-11-06/732.html" title="·ÖÏíÎÒµÄ¸öÈË²©¿Í·ÃÎÊÁ¿ÈçºÎ×öµ½IP´Ó10µ½600µÄ(Í¼ÎÄ)" target="_blank">·ÖÏíÎÒµÄ¸öÈË²©¿Í·ÃÎÊÁ¿ÈçºÎ×öµ½IP´Ó10µ½600µÄ(Í¼ÎÄ)</a></li>
+        </ul>
+      </div>
+      <div class="ad"> <img src="images/03.jpg"> </div>
     </div>
-</div> 
+  </div>
+  <!-- container´úÂë ½áÊø -->
+
+  <footer>
+    <div class="footer">
+      <div class="f_l">
+        <p>All Rights Reserved °æÈ¨ËùÓÐ£º<a href="http://www.yangqq.com">ÑîÇà¸öÈË²©¿Í</a> ±¸°¸ºÅ£ºÊñICP±¸00000000ºÅ</p>
+      </div>
+      <div class="f_r textr">
+        <p>Design by DanceSmile</p>
+      </div>
+    </div>
+  </footer>
+</div>
 </body>
 </html>
